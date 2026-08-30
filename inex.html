@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kitchen House</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8f2;
+            color: #333;
+        }
+
+        header {
+            background: white;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px #ddd;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #8b5e3c;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: #f3dfcc;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            color: #70472d;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #8b5e3c;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .products {
+            padding: 60px;
+            text-align: center;
+        }
+
+        .products h2 {
+            color: #70472d;
+            font-size: 35px;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .product {
+            background: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 3px 15px #ddd;
+        }
+
+        .product-image {
+            height: 160px;
+            background: #f0e3d7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            border-radius: 10px;
+        }
+
+        .price {
+            color: #8b5e3c;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #70472d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Kitchen House</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Kitchen House</h1>
+    <p>Beautiful kitchen & dining essentials for every home.</p>
+    <a href="#products" class="button">Shop Now</a>
+</section>
+
+<section class="products" id="products">
+
+    <h2>Our Products</h2>
+
+    <div class="product-container">
+
+        <div class="product">
+            <div class="product-image">🥣</div>
+            <h3>Ceramic Bowl</h3>
+            <p class="price">Rs. 850</p>
+            <a href="#" class="button">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <div class="product-image">🍽️</div>
+            <h3>Dinner Plate</h3>
+            <p class="price">Rs. 1,200</p>
+            <a href="#" class="button">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <div class="product-image">🥛</div>
+            <h3>Glass Set</h3>
+            <p class="price">Rs. 1,500</p>
+            <a href="#" class="button">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <div class="product-image">🫗</div>
+            <h3>Water Jug</h3>
+            <p class="price">Rs. 1,800</p>
+            <a href="#" class="button">Buy Now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Kitchen House</p>
+</footer>
+
+</body>
+</html>
